@@ -1,0 +1,10 @@
+<?php
+require 'req/coonnect.php';
+
+session_unset();
+session_destroy();
+ 
+		header('Location: index.php');
+ 
+
+?>

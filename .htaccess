@@ -1,0 +1,9 @@
+RewriteOptions inherit
+
+ErrorDocument 404 http://127.0.0.1/renewaloftheword2.com
+
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.php [NC,L]
+
+ 
